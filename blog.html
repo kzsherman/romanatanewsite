@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" class="lang-en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog | Блог — ROMANATA Academy</title>
+<meta name="description" content="Practical language-learning tips, culture notes and articles from ROMANATA Academy in Almaty. Практические советы по изучению языков и статьи от школы ROMANATA Academy в Алматы.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@500&family=Noto+Sans+KR:wght@500&family=Noto+Sans+SC:wght@500&family=Noto+Sans+Arabic:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xshilzyv8l");
+</script>
+</head>
+<body class="lang-en">
+<header>
+  <div class="nav">
+    <a class="logo" href="index.html">ROMANATA<span>.</span></a>
+    <nav class="nav-links">
+      <a href="index.html" class=""><span class="en">Home</span><span class="ru">Главная</span></a>
+      <div class="dropdown">
+        <button type="button" class=""><span class="en">Languages</span><span class="ru">Языки</span> <svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 1l5 5 5-5"/></svg></button>
+        <div class="dropdown-menu">
+      <a href="english.html"><span class="flag">Ee</span><span class="en">English</span><span class="ru">Английский</span></a>
+      <a href="german.html"><span class="flag">Dd</span><span class="en">German</span><span class="ru">Немецкий</span></a>
+      <a href="italian.html"><span class="flag">Ii</span><span class="en">Italian</span><span class="ru">Итальянский</span></a>
+      <a href="japanese.html"><span class="flag">日</span><span class="en">Japanese</span><span class="ru">Японский</span></a>
+      <a href="chinese.html"><span class="flag">中</span><span class="en">Chinese</span><span class="ru">Китайский</span></a>
+      <a href="korean.html"><span class="flag">한</span><span class="en">Korean</span><span class="ru">Корейский</span></a>
+      <a href="russian.html"><span class="flag">Рy</span><span class="en">Russian for Foreigners</span><span class="ru">Русский для иностранцев</span></a>
+      <a href="arabic.html"><span class="flag">ع</span><span class="en">Arabic</span><span class="ru">Арабский</span></a>
+        </div>
+      </div>
+      <a href="teachers.html" class=""><span class="en">Teachers</span><span class="ru">Преподаватели</span></a>
+      <a href="translation.html" class=""><span class="en">Translation</span><span class="ru">Переводы</span></a>
+      <a href="pricing.html" class=""><span class="en">Pricing</span><span class="ru">Цены</span></a>
+      <a href="news.html" class=""><span class="en">News</span><span class="ru">Новости</span></a>
+      <a href="index.html#contact" class=""><span class="en">Contact</span><span class="ru">Контакты</span></a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-switch">
+        <button class="active" data-lang="en" onclick="setLang('en')">EN</button>
+        <button data-lang="ru" onclick="setLang('ru')">RU</button>
+      </div>
+      <a class="call-btn" href="tel:+77029037258">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .8 3a2 2 0 0 1-.5 2.1L8 10.2a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.5c1 .4 2 .7 3 .8a2 2 0 0 1 1.7 2z"/></svg>
+        <span class="en">Call us</span><span class="ru">Позвонить</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" onclick="toggleMobileMenu()" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="mobile-menu-overlay" onclick="closeMobileMenu()"></div>
+<div class="mobile-menu" role="dialog" aria-label="Menu">
+  <div class="mobile-menu-head">
+    <span class="logo">ROMANATA<span>.</span></span>
+    <button class="mobile-menu-close" onclick="closeMobileMenu()" aria-label="Close menu">&times;</button>
+  </div>
+  <nav>
+    <a class="mm-link" href="index.html"><span class="en">Home</span><span class="ru">Главная</span></a>
+    <div class="mm-group-label"><span class="en">Languages</span><span class="ru">Языки</span></div>
+    <div class="mm-sub">
+      <a href="english.html" class="mm-sub-link"><span class="flag">Ee</span><span class="en">English</span><span class="ru">Английский</span></a>
+      <a href="german.html" class="mm-sub-link"><span class="flag">Dd</span><span class="en">German</span><span class="ru">Немецкий</span></a>
+      <a href="italian.html" class="mm-sub-link"><span class="flag">Ii</span><span class="en">Italian</span><span class="ru">Итальянский</span></a>
+      <a href="japanese.html" class="mm-sub-link"><span class="flag">日</span><span class="en">Japanese</span><span class="ru">Японский</span></a>
+      <a href="chinese.html" class="mm-sub-link"><span class="flag">中</span><span class="en">Chinese</span><span class="ru">Китайский</span></a>
+      <a href="korean.html" class="mm-sub-link"><span class="flag">한</span><span class="en">Korean</span><span class="ru">Корейский</span></a>
+      <a href="russian.html" class="mm-sub-link"><span class="flag">Рy</span><span class="en">Russian for Foreigners</span><span class="ru">Русский для иностранцев</span></a>
+      <a href="arabic.html" class="mm-sub-link"><span class="flag">ع</span><span class="en">Arabic</span><span class="ru">Арабский</span></a>
+    </div>
+    <a class="mm-link" href="teachers.html"><span class="en">Teachers</span><span class="ru">Преподаватели</span></a>
+    <a class="mm-link" href="translation.html"><span class="en">Translation Services</span><span class="ru">Переводческие услуги</span></a>
+    <a class="mm-link" href="pricing.html"><span class="en">Pricing</span><span class="ru">Цены</span></a>
+    <a class="mm-link" href="news.html"><span class="en">News</span><span class="ru">Новости</span></a>
+    <a class="mm-link" href="index.html#contact"><span class="en">Contact</span><span class="ru">Контакты</span></a>
+  </nav>
+  <div class="mobile-menu-foot">
+    <div class="lang-switch">
+      <button class="active" data-lang="en" onclick="setLang('en')">EN</button>
+      <button data-lang="ru" onclick="setLang('ru')">RU</button>
+    </div>
+    <a class="call-btn" href="tel:+77029037258">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .8 3a2 2 0 0 1-.5 2.1L8 10.2a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.5c1 .4 2 .7 3 .8a2 2 0 0 1 1.7 2z"/></svg>
+      <span class="en">Call us</span><span class="ru">Позвонить</span>
+    </a>
+  </div>
+</div>
+
+<section class="section tight">
+  <div class="wrap" style="margin-bottom:42px;">
+    <div class="eyebrow"><span class="en">FROM THE BLOG</span><span class="ru">ИЗ БЛОГА</span></div>
+    <div class="blog-grid" style="margin-top:18px;">
+      <article class="blog-card"><div class="article-meta"><span class="en">Study tips</span><span class="ru">Советы по учёбе</span></div><h2><span class="en">How to practise a language every day</span><span class="ru">Как заниматься языком каждый день</span></h2><p><span class="en">Small habits that make regular practice feel natural.</span><span class="ru">Небольшие привычки, которые помогают заниматься регулярно.</span></p><a href="#study-habits-article"><span class="en">Read article →</span><span class="ru">Читать →</span></a></article>
+      <article class="blog-card"><div class="article-meta"><span class="en">Culture</span><span class="ru">Культура</span></div><h2><span class="en">Learning through films and music</span><span class="ru">Учимся с фильмами и музыкой</span></h2><p><span class="en">Turn the things you already enjoy into language practice.</span><span class="ru">Превратите любимые занятия в языковую практику.</span></p><a href="videos.html"><span class="en">Watch videos →</span><span class="ru">Смотреть видео →</span></a></article>
+      <article class="blog-card"><div class="article-meta"><span class="en">Languages</span><span class="ru">Языки</span></div><h2><span class="en">Why learn Chinese in 2026?</span><span class="ru">Зачем учить китайский в 2026 году?</span></h2><p><span class="en">A practical look at one of the world's most useful languages.</span><span class="ru">Практический взгляд на один из самых полезных языков мира.</span></p><a href="#chinese-article"><span class="en">Read article →</span><span class="ru">Читать →</span></a></article>
+    </div>
+  </div>
+  <div class="article-wrap">
+    <div id="study-habits-article"></div>
+    <a class="article-back" href="news.html">&larr; <span class="en">Back to News</span><span class="ru">Назад к новостям</span></a>
+
+    <div class="article-meta">
+      <span class="en">July 2026 · ROMANATA Academy</span><span class="ru">Июль 2026 · ROMANATA Academy</span>
+    </div>
+
+    <h1>
+      <span class="en">How to practise a language every day</span>
+      <span class="ru">Как заниматься языком каждый день</span>
+    </h1>
+
+    <div class="article-body">
+      <p>
+        <span class="en">Consistency beats intensity when it comes to language learning. Ten focused minutes a day, every day, will get you further than a single three-hour session once a week — and it's far easier to keep up long term.</span>
+        <span class="ru">В изучении языка регулярность важнее интенсивности. Десять минут в день, но каждый день, дадут больше результата, чем одно трёхчасовое занятие раз в неделю — и это гораздо легче поддерживать в долгосрочной перспективе.</span>
+      </p>
+
+      <h2><span class="en">Attach it to something you already do</span><span class="ru">Привяжите практику к тому, что уже делаете</span></h2>
+      <p>
+        <span class="en">The easiest habits are the ones that piggyback on an existing routine. Review five flashcards with your morning coffee, listen to a podcast on your commute, or read one page before bed. You don't need extra willpower if the moment is already built into your day.</span>
+        <span class="ru">Легче всего закрепляются привычки, которые встроены в уже существующий распорядок. Повторите пять карточек за утренним кофе, послушайте подкаст по дороге на работу или прочитайте одну страницу перед сном. Дополнительная сила воли не нужна, если момент для практики уже есть в вашем дне.</span>
+      </p>
+
+      <h2><span class="en">Mix input with output</span><span class="ru">Сочетайте восприятие и активную практику</span></h2>
+      <p>
+        <span class="en">Listening and reading build recognition, but speaking and writing are what actually make a language stick. A simple weekly rhythm works well:</span>
+        <span class="ru">Слушание и чтение развивают узнавание, но именно говорение и письмо по-настоящему закрепляют язык. Хорошо работает простой еженедельный ритм:</span>
+      </p>
+      <ul>
+        <li><span class="en">A few short listening or reading sessions during the week</span><span class="ru">Несколько коротких занятий на слушание или чтение в течение недели</span></li>
+        <li><span class="en">One conversation lesson to actively use what you've absorbed</span><span class="ru">Одно разговорное занятие, чтобы активно использовать усвоенное</span></li>
+        <li><span class="en">A few sentences written in a journal or chat, even if imperfect</span><span class="ru">Несколько предложений, написанных в дневнике или переписке, пусть даже с ошибками</span></li>
+      </ul>
+
+      <h2><span class="en">Track streaks lightly, not obsessively</span><span class="ru">Отслеживайте прогресс без фанатизма</span></h2>
+      <p>
+        <span class="en">A simple checkmark on a calendar is enough motivation for most people. The goal is to notice your consistency, not to punish yourself for missing a day — one skipped day is a pause, not a failure, and the habit picks right back up the next.</span>
+        <span class="ru">Простой значок в календаре — достаточная мотивация для большинства людей. Цель — заметить свою регулярность, а не наказывать себя за пропущенный день: один пропуск — это просто пауза, а не провал, и привычка легко возобновляется на следующий день.</span>
+      </p>
+
+      <p>
+        <span class="en">If you'd like a structure to build these habits around, a regular lesson with a teacher gives you a fixed point in the week to aim for.</span>
+        <span class="ru">Если хочется структуры для формирования этих привычек, регулярные занятия с преподавателем дают вам фиксированную точку в неделе, к которой можно стремиться.</span>
+      </p>
+
+      <hr class="article-divider">
+
+      <p style="font-size:14px;">
+        <a href="pricing.html"><span class="en">→ See our lesson packages</span><span class="ru">→ Пакеты занятий</span></a><br>
+        <a href="https://wa.me/77029037258" target="_blank" rel="noopener"><span class="en">→ Book a trial lesson on WhatsApp</span><span class="ru">→ Записаться на пробный урок в WhatsApp</span></a>
+      </p>
+    </div>
+  </div>
+
+  <div class="article-wrap" style="margin-top:56px;">
+    <div id="chinese-article"></div>
+    <a class="article-back" href="news.html">&larr; <span class="en">Back to News</span><span class="ru">Назад к новостям</span></a>
+
+    <div class="article-meta">
+      <span class="en">July 2026 · ROMANATA Academy</span><span class="ru">Июль 2026 · ROMANATA Academy</span>
+    </div>
+
+    <h1>
+      <span class="en">Why learn Chinese in 2026?</span>
+      <span class="ru">Зачем учить китайский язык в 2026 году?</span>
+    </h1>
+
+    <div class="article-body">
+      <p>
+        <span class="en">Mandarin Chinese has more native speakers than any other language in the world, and China remains one of Kazakhstan's largest trading partners. For students in Almaty, that makes Chinese one of the most practically useful languages to add — for business, study, or travel.</span>
+        <span class="ru">На путунхуа (мандаринском китайском) говорит больше носителей, чем на любом другом языке в мире, а Китай остаётся одним из крупнейших торговых партнёров Казахстана. Для студентов в Алматы это делает китайский одним из самых практически полезных языков — для бизнеса, учёбы или путешествий.</span>
+      </p>
+
+      <h2><span class="en">It's more learnable than its reputation suggests</span><span class="ru">Он проще, чем принято думать</span></h2>
+      <p>
+        <span class="en">Chinese grammar is refreshingly simple — no verb conjugations, no grammatical gender, no plural forms to memorize. The real work goes into tones and characters, and both become far more manageable with steady, structured practice from day one.</span>
+        <span class="ru">Грамматика китайского языка на удивление проста — нет спряжения глаголов, грамматического рода, форм множественного числа для запоминания. Основная работа связана с тонами и иероглифами, и оба этих аспекта становятся куда более управляемыми при регулярной, структурированной практике с самого первого дня.</span>
+      </p>
+
+      <h2><span class="en">How we teach it at ROMANATA</span><span class="ru">Как мы преподаём его в ROMANATA</span></h2>
+      <p>
+        <span class="en">We build every student's foundation in Mandarin pronunciation and tones before layering on characters and vocabulary. From there, lessons branch toward whatever you need:</span>
+        <span class="ru">Мы закладываем основу произношения и тонов путунхуа у каждого студента, прежде чем переходить к иероглифам и лексике. Далее занятия развиваются в нужном вам направлении:</span>
+      </p>
+      <ul>
+        <li><span class="en">Conversational Chinese for travel and daily life</span><span class="ru">Разговорный китайский для путешествий и повседневной жизни</span></li>
+        <li><span class="en">Business Chinese for trade and professional communication</span><span class="ru">Деловой китайский для торговли и профессионального общения</span></li>
+        <li><span class="en">HSK exam preparation for study or work in China</span><span class="ru">Подготовка к HSK для учёбы или работы в Китае</span></li>
+      </ul>
+
+      <p>
+        <span class="en">If you've been curious about Chinese, there's rarely been a more useful moment to start. Book a free trial lesson and we'll help you figure out where to begin.</span>
+        <span class="ru">Если вам давно было интересно попробовать китайский — сейчас особенно удачный момент начать. Запишитесь на бесплатный пробный урок, и мы поможем определить, с чего начать.</span>
+      </p>
+
+      <hr class="article-divider">
+
+      <p style="font-size:14px;">
+        <a href="chinese.html"><span class="en">→ See our Chinese course page</span><span class="ru">→ Страница курса китайского языка</span></a><br>
+        <a href="https://wa.me/77029037258" target="_blank" rel="noopener"><span class="en">→ Book a trial lesson on WhatsApp</span><span class="ru">→ Записаться на пробный урок в WhatsApp</span></a>
+      </p>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="wrap foot-row">
+    <div class="logo">ROMANATA<span style="color:var(--gold)">.</span></div>
+    <div class="foot-links">
+      <a href="teachers.html"><span class="en">Teachers</span><span class="ru">Преподаватели</span></a>
+      <a href="translation.html"><span class="en">Translation</span><span class="ru">Переводы</span></a>
+      <a href="pricing.html"><span class="en">Pricing</span><span class="ru">Цены</span></a>
+      <a href="news.html"><span class="en">News</span><span class="ru">Новости</span></a>
+      <a href="blog.html"><span class="en">Blog</span><span class="ru">Блог</span></a>
+      <a href="index.html#contact"><span class="en">Contact</span><span class="ru">Контакты</span></a>
+      <a href="https://wa.me/77029037258" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+    <div>
+      <span class="en">© 2026 ROMANATA Academy · Business Center RD, Abai 115A, Almaty · +7 (702) 903-7258</span>
+      <span class="ru">© 2026 ROMANATA Academy · Бизнес-центр RD, Абая 115А, Алматы · +7 (702) 903-7258</span>
+    </div>
+  <div class="social-links"><a href="https://www.instagram.com/romanata_academy/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2c2.7 0 3.05.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.22.6 1.77 1.15.55.55.89 1.11 1.15 1.77.25.64.42 1.37.47 2.43.05 1.07.06 1.42.06 4.12s-.01 3.05-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.64.25-1.37.42-2.43.47-1.07.05-1.42.06-4.12.06s-3.05-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.25-.64-.42-1.37-.47-2.43C2.01 15.05 2 14.7 2 12s.01-3.05.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.22 1.15-1.77A4.9 4.9 0 0 1 5.45 2.53c.64-.25 1.37-.42 2.43-.47C8.95 2.01 9.3 2 12 2zm0 1.8c-2.65 0-2.97.01-4.02.06-.86.04-1.33.18-1.64.3-.41.16-.71.35-1.02.66-.31.31-.5.61-.66 1.02-.12.31-.26.78-.3 1.64C4.31 9.03 4.3 9.35 4.3 12s.01 2.97.06 4.02c.04.86.18 1.33.3 1.64.16.41.35.71.66 1.02.31.31.61.5 1.02.66.31.12.78.26 1.64.3 1.05.05 1.37.06 4.02.06s2.97-.01 4.02-.06c.86-.04 1.33-.18 1.64-.3.41-.16.71-.35 1.02-.66.31-.31.5-.61.66-1.02.12-.31.26-.78.3-1.64.05-1.05.06-1.37.06-4.02s-.01-2.97-.06-4.02c-.04-.86-.18-1.33-.3-1.64a2.7 2.7 0 0 0-.66-1.02 2.7 2.7 0 0 0-1.02-.66c-.31-.12-.78-.26-1.64-.3C14.97 3.81 14.65 3.8 12 3.8zm0 3.05a5.15 5.15 0 1 1 0 10.3 5.15 5.15 0 0 1 0-10.3zm0 1.8a3.35 3.35 0 1 0 0 6.7 3.35 3.35 0 0 0 0-6.7zm5.35-1.98a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/></svg></a><a href="https://www.tiktok.com/@natalyakomleva8?_r=1" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 2h-3.2v13.4a2.8 2.8 0 1 1-2-2.68V9.5a5.9 5.9 0 1 0 5.2 5.86V8.3a7.4 7.4 0 0 0 4.4 1.44V6.55a4.2 4.2 0 0 1-4.4-4.55z"/></svg></a></div></div>
+</footer>
+<script src="/lang.js"></script>
+</body>
+</html>
