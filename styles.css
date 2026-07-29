@@ -52,6 +52,7 @@ header{
 .nav{
   display:flex; align-items:center; justify-content:space-between;
   padding:18px 32px; max-width:1180px; margin:0 auto;
+  position:relative;
 }
 .logo{ font-family:var(--display); font-size:22px; font-weight:700; color:var(--paper); letter-spacing:.02em; }
 .logo span{ color:var(--gold); }
@@ -165,6 +166,10 @@ body.menu-open{ overflow:hidden; }
 @media(max-width:1080px){
   .nav-links{ display:none; }
   .nav-toggle{ display:flex; }
+  .nav{ padding-left:60px; }
+  .nav-toggle{
+    position:absolute; left:16px; top:50%; transform:translateY(-50%);
+  }
 }
 @media(min-width:1081px){
   .mobile-menu, .mobile-menu-overlay{ display:none !important; }
@@ -288,7 +293,8 @@ body.menu-open{ overflow:hidden; }
 .stamp:nth-child(9) .stamp-ring::after{ content:'🇫🇷'; }
 .stamp:nth-child(10) .stamp-ring::after{ content:'🇨🇿'; }
 .stamp:nth-child(11) .stamp-ring::after{ content:'🇹🇷'; }
-.stamp:nth-child(12) .stamp-ring::after{ content:'💼'; }
+.stamp:nth-child(12) .stamp-ring::after{ content:'🇪🇸'; }
+.stamp:nth-child(13) .stamp-ring::after{ content:'💼'; }
 
 /* ================= STUDY ABROAD ================= */
 .destination-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:22px; }
