@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function(){
       right.appendChild(toggle);
       var overlay = document.createElement('div'); overlay.className = 'mobile-menu-overlay'; overlay.setAttribute('onclick', 'closeMobileMenu()'); document.body.appendChild(overlay);
       var menu = document.createElement('div'); menu.className = 'mobile-menu';
-      menu.innerHTML = '<div class="mobile-menu-head"><span class="logo">ROMANATA<span>.</span></span><button class="mobile-menu-close" onclick="closeMobileMenu()" aria-label="Close menu">&times;</button></div><nav><a class="mm-link" href="index.html"><span class="en">Home</span><span class="ru">Главная</span></a><a class="mm-link" href="teachers.html"><span class="en">Teachers</span><span class="ru">Преподаватели</span></a><a class="mm-link" href="translation.html"><span class="en">Translation</span><span class="ru">Переводы</span></a><a class="mm-link" href="pricing.html"><span class="en">Pricing</span><span class="ru">Цены</span></a><a class="mm-link" href="news.html"><span class="en">News</span><span class="ru">Новости</span></a><a class="mm-link" href="blog.html"><span class="en">Blog</span><span class="ru">Блог</span></a><a class="mm-link" href="videos.html"><span class="en">Videos</span><span class="ru">Видео</span></a><a class="mm-link" href="study-abroad.html"><span class="en">Study Abroad</span><span class="ru">Учёба за рубежом</span></a></nav>';
+      menu.innerHTML = '<div class="mobile-menu-head"><span class="logo">ROMANATA<span>.</span></span><button class="mobile-menu-close" onclick="closeMobileMenu()" aria-label="Close menu">&times;</button></div><nav><a class="mm-link" href="index.html"><span class="en">Home</span><span class="ru">Главная</span></a><a class="mm-link" href="teachers.html"><span class="en">Teachers</span><span class="ru">Преподаватели</span></a><a class="mm-link" href="translation.html"><span class="en">Translation</span><span class="ru">Переводы</span></a><a class="mm-link" href="pricing.html"><span class="en">Pricing</span><span class="ru">Цены</span></a><a class="mm-link" href="news.html"><span class="en">News</span><span class="ru">Новости</span></a><a class="mm-link" href="/blog"><span class="en">Blog</span><span class="ru">Блог</span></a><a class="mm-link" href="videos.html"><span class="en">Videos</span><span class="ru">Видео</span></a><a class="mm-link" href="study-abroad.html"><span class="en">Study Abroad</span><span class="ru">Учёба за рубежом</span></a></nav>';
       document.body.appendChild(menu);
     }
   }
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function(){
     var extraPages = [
       ['english.html','English','Английский'],['german.html','German','Немецкий'],['italian.html','Italian','Итальянский'],['japanese.html','Japanese','Японский'],
       ['chinese.html','Chinese','Китайский'],['korean.html','Korean','Корейский'],['russian.html','Russian for Foreigners','Русский для иностранцев'],['arabic.html','Arabic','Арабский'],['french.html','French','Французский'],['czech.html','Czech','Чешский'],['turkish.html','Turkish','Турецкий'],
-      ['blog.html','Blog','Блог'],['videos.html','Videos','Видео'],['study-abroad.html','Study Abroad','Учёба за рубежом'],['index.html#contact','Contact','Контакты']
+      ['/blog','Blog','Блог'],['videos.html','Videos','Видео'],['study-abroad.html','Study Abroad','Учёба за рубежом'],['index.html#contact','Contact','Контакты']
     ];
     for(var p=0;p<extraPages.length;p++){
       if(!mobileNav.querySelector('[href="' + extraPages[p][0] + '"]')){
