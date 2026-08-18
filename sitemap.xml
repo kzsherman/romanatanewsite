@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://romanata.kz/</loc>
+    <loc>https://romanata.kz/arabic.html</loc>
     <lastmod>2026-08-18</lastmod>
-    <priority>1.0</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://romanata.kz/chinese.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://romanata.kz/corporate.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://romanata.kz/czech.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://romanata.kz/english.html</loc>
@@ -11,9 +26,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://romanata.kz/french.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://romanata.kz/german.html</loc>
     <lastmod>2026-08-18</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://romanata.kz/</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://romanata.kz/italian.html</loc>
@@ -26,12 +51,17 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://romanata.kz/chinese.html</loc>
+    <loc>https://romanata.kz/korean.html</loc>
     <lastmod>2026-08-18</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://romanata.kz/korean.html</loc>
+    <loc>https://romanata.kz/news.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://romanata.kz/pricing.html</loc>
     <lastmod>2026-08-18</lastmod>
     <priority>0.8</priority>
   </url>
@@ -41,64 +71,29 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://romanata.kz/arabic.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://romanata.kz/spanish.html</loc>
     <lastmod>2026-08-18</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://romanata.kz/czech.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://romanata.kz/french.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://romanata.kz/turkish.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://romanata.kz/teachers.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://romanata.kz/translation.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://romanata.kz/corporate.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://romanata.kz/study-abroad.html</loc>
     <lastmod>2026-08-18</lastmod>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://romanata.kz/pricing.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://romanata.kz/news.html</loc>
+    <loc>https://romanata.kz/teacher-amina.html</loc>
     <lastmod>2026-08-18</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://romanata.kz/videos.html</loc>
+    <loc>https://romanata.kz/teacher-denisa.html</loc>
     <lastmod>2026-08-18</lastmod>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://romanata.kz/teacher-natalya.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://romanata.kz/teacher-nazym.html</loc>
@@ -106,8 +101,33 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://romanata.kz/teacher-amina.html</loc>
+    <loc>https://romanata.kz/teacher-reduan.html</loc>
     <lastmod>2026-08-18</lastmod>
     <priority>0.6</priority>
   </url>
-
+  <url>
+    <loc>https://romanata.kz/teacher-valeria.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://romanata.kz/teachers.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://romanata.kz/translation.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://romanata.kz/turkish.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://romanata.kz/videos.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>

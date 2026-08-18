@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://romanata.kz/sitemap.xml
-Sitemap: https://romanata.kz/blog/wp-sitemap.xml
+Sitemap: https://romanata.kz/blog/sitemap_index.xml
