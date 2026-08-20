@@ -18,7 +18,9 @@
 }
 
 *{ box-sizing:border-box; margin:0; padding:0; }
-html{ scroll-behavior:smooth; }
+html{ scroll-behavior:smooth; overflow-x:clip; }
+/* off-canvas menu must not widen the layout viewport on mobile */
+html:has(body.menu-open){ overflow:hidden; }
 body{
   background:var(--ink);
   color:var(--muted);
@@ -215,7 +217,7 @@ body.menu-open{ overflow:hidden; }
 
 /* ================= BREADCRUMB ================= */
 .breadcrumb{
-  padding:22px 0 0; font-family:var(--mono); font-size:12px; letter-spacing:.03em; color:var(--muted-dim);
+  padding:22px 32px 0; font-family:var(--mono); font-size:12px; letter-spacing:.03em; color:var(--muted-dim);
 }
 .breadcrumb a{ color:var(--muted-dim); }
 .breadcrumb a:hover{ color:var(--gold-soft); }
