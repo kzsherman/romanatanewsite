@@ -609,3 +609,14 @@ footer{ padding:36px 0 44px; border-top:1px solid rgba(255,255,255,.08); font-si
      they remain in the footer */
   .nav-right .social-links{ display:none; }
 }
+
+/* ================= GROUP AVAILABILITY NOTICE ================= */
+.group-notice{
+  display:flex; gap:12px; align-items:flex-start;
+  margin-top:20px; padding:14px 18px;
+  background:rgba(200,155,60,.07);
+  border:1px solid rgba(200,155,60,.18); border-left:3px solid var(--gold);
+  border-radius:10px;
+}
+.group-notice .gn-ico{ flex:none; margin-top:2px; color:var(--gold); }
+.group-notice p{ margin:0; font-size:14px; line-height:1.55; color:var(--muted); }
